@@ -1,0 +1,77 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-bottom: 3vh;
+}
+nav img{
+    width: 10vh;
+    height: 10vh;
+}
+.container{
+    background-color: whitesmoke;
+    height: 70vh;
+    border: 1px black solid;
+    margin: auto;
+    width: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+    border-radius: 10px;
+}
+.message{
+    border: 1px solid black;
+    color: white;
+    font-family: inherit;
+    border-radius: 10px;
+    height: auto;
+    max-width: 50%;
+    margin: 2%;
+    padding: 1%;
+    overflow: auto;
+    display: flex;
+    text-align: justify;
+    scrollbar-width: thin;
+    align-items: center;
+}
+.left{
+    background-color: grey;
+    float: left;
+    clear: both;
+}
+.right{
+    background-color: green;
+    float: right;
+    clear: both;
+}
+.mid{
+    background-color: chocolate;
+    border-radius: 0%;
+    padding: 0.5%;
+    margin: auto;
+    width: fit-content;
+    clear: both;
+}
+#sendContainer{
+    background-color: inherit;
+    margin: auto;
+    margin-top: 1%;
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+#messageInp{
+    width: 85%;
+    font-family: Arial;
+    font-size: medium;
+    padding: 1%;
+}
+.btn{
+    padding: 1%;
+    background-color: greenyellow;
+    font-weight: bolder;
+    cursor: pointer;
+}
